@@ -1,0 +1,35 @@
+{
+  "name": "passport-login",
+  "version": "1.0.0",
+  "description": "Authentication app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khamosh-nigahen/passport-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khamosh-nigahen/passport-login/issues"
+  },
+  "homepage": "https://github.com/khamosh-nigahen/passport-login#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "pg-promise": "^10.11.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
